@@ -191,7 +191,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-24 09:56:28" itemprop="dateModified" datetime="2020-07-24T09:56:28+08:00">2020-07-24</time>
+                <time title="修改时间：2020-07-24 10:02:48" itemprop="dateModified" datetime="2020-07-24T10:02:48+08:00">2020-07-24</time>
               </span>
 
           
@@ -206,14 +206,11 @@
 
       
           <table>
-==================================================
-HiC-Pro软件
---------------------------------------------------
-1. HiCPro自带的digest_genome.py程序获得消化片段的BED文件及chromosomes' size表格文件,需要限制酶酶切位点及参考基因组信息。
+===HiC-Pro软件
+---1. HiCPro自带的digest_genome.py程序获得消化片段的BED文件及chromosomes' size表格文件,需要限制酶酶切位点及参考基因组信息。
 cd module load HiC-Pro/2.11.1
 /public/home/software/opt/bio/software/HiC-Pro/2.11.1/HiC-Pro_2.11.1/bin/utils/digest_genome.py -r A^AGCTT -o /public/home/jyli/Gossypium_PAN/ADK_Manuscript/ReAnalysis_KHiC/HindIII_resfrag_K.bed ~/Gossypium_PAN/HAU_10Genomes/RawGenomes/K2/K2.Chr.fa
---------------------------------------------------
-2. 设置配置文件：https://www.jianshu.com/p/f5050eacdc1e
+---2. 设置配置文件：https://www.jianshu.com/p/f5050eacdc1e
 注：原始数据文件夹下面建立rawdata，且将数据放入
 # 配置文件主要修改内容
 BOWTIE2_IDX_PATH = # bowtie2建立的索引所在的路径，记住绝对路径
@@ -267,10 +264,16 @@ PAIR2_EXT = SRR824846_Q20L10_2
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-07-23 18:26:10 / 修改时间：18:40:47" itemprop="dateCreated datePublished" datetime="2020-07-23T18:26:10+08:00">2020-07-23</time>
+              <time title="创建时间：2020-07-23 18:26:10" itemprop="dateCreated datePublished" datetime="2020-07-23T18:26:10+08:00">2020-07-23</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-07-24 10:00:55" itemprop="dateModified" datetime="2020-07-24T10:00:55+08:00">2020-07-24</time>
+              </span>
 
           
 
@@ -283,7 +286,7 @@ PAIR2_EXT = SRR824846_Q20L10_2
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>#HuGuanjin<br>GSNAP-PolyCat.This pipeline uses the SNP-tolerant capabilities of GSNAP to permit equivocal mapping of reads derived from different species/genomes to a single diploid genome using known SNP differences. PolyCat then uses the same SNP information to diagnose the origin of each read. Here, we mapped reads to the G. raimondii reference genome (Paterson et al. 2012) using GSNAP(Wu et al. 2016)and apreviously generated genome-diagnostic SNP-index (Page, Gingle, and Udall 2013) for SNP tolerant mapping. The resulting ADsalignments were further processed by samtools(H. Li et al. 2009) and subsequently partitioned into genome-of-origin via PolyCat(Page, Gingle, and Udall 2013). Read counts were tabulated via HTSeq(Anders, Pyl, and Huber 2015) for each species/stage representing the number of reads mapped to the reference genome.<br>十二</p>
+          <p>miRNA prediction software<br>The clean data of small RNA sequencing (miRNA and siRNA reads) were mapped to G. barbadense using Bowtie, which allowed 200 multiple mapping positions and zero mismatch for each read. We adopted structure-based annotation and probability-based annotation to predict miRNA loci as suggested by Paterson et al. [22]. For the structure-based annotation, RNAfold was employed to predict secondary structures and miRcheck was used to evaluate secondary structures [65]. We then utilized miRDP to filter the putative precursors of the structure-based annotation [66]. The cutoff value of the largest miRNA family size was set at 30 owing to the genome doubling of teraploid relative to diploid. All the annotated mature miRNAs were searched against the miRBase (Release 20) to categorize into cotton conserved and non-conserved miRNA gene families [67]. We also employed the CleaveLand pipeline to predict putative miRNA targets based on the degradation data [68]. The bona fide miRNA targets were detected based on the criterion suggested by Addo-Quaye et al. [69]. After eliminating miRNA reads from small sequencing datasets, the remaining were then regarded as siRNAs. Wang et al.,2015 NP<br>Target predict<br>Annotated mRNA database of upland cotton from NCBI and assembled contigs from our cotton EST database was employed to identify miRNA targets by Target-align with default<br>parameters(Xie and Zhang, 2010). To validate predicted miRNA targets, Cleveland (Version 4.3, <a href="http://axtell-lab-psu.weebly.com/cleaveland.html" target="_blank" rel="noopener">http://axtell-lab-psu.weebly.com/cleaveland.html</a>) (Addo-Quaye et al., 2009) was used<br>to do degradome analysis with some modifications, where maximal mismatches between miRNAs and target sites are less than four and no mismatches is allowed on the 10th and<br>11th nucleotides on miRNAs (Meyers et al., 2008). Xie et al.,2015 PBJ</p>
 
       
     </div>
