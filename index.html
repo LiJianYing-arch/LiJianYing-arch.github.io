@@ -191,7 +191,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-24 10:02:48" itemprop="dateModified" datetime="2020-07-24T10:02:48+08:00">2020-07-24</time>
+                <time title="修改时间：2020-07-24 10:08:30" itemprop="dateModified" datetime="2020-07-24T10:08:30+08:00">2020-07-24</time>
               </span>
 
           
@@ -206,19 +206,19 @@
 
       
           <table>
-===HiC-Pro软件
----1. HiCPro自带的digest_genome.py程序获得消化片段的BED文件及chromosomes' size表格文件,需要限制酶酶切位点及参考基因组信息。
+#HiC-Pro软件
+##1. HiCPro自带的digest_genome.py程序获得消化片段的BED文件及chromosomes' size表格文件,需要限制酶酶切位点及参考基因组信息。
 cd module load HiC-Pro/2.11.1
 /public/home/software/opt/bio/software/HiC-Pro/2.11.1/HiC-Pro_2.11.1/bin/utils/digest_genome.py -r A^AGCTT -o /public/home/jyli/Gossypium_PAN/ADK_Manuscript/ReAnalysis_KHiC/HindIII_resfrag_K.bed ~/Gossypium_PAN/HAU_10Genomes/RawGenomes/K2/K2.Chr.fa
----2. 设置配置文件：https://www.jianshu.com/p/f5050eacdc1e
+##2. 设置配置文件：https://www.jianshu.com/p/f5050eacdc1e
 注：原始数据文件夹下面建立rawdata，且将数据放入
-# 配置文件主要修改内容
+配置文件主要修改内容
 BOWTIE2_IDX_PATH = # bowtie2建立的索引所在的路径，记住绝对路径
 REFERENCE_GENOME = # bowtie2建立的索引
 GENOME_SIZE = # 一个文件记录着参考基因组中每条序列的大小
 GENOME_FRAGMENT = 消化片段的BED文件所在的路径
 LIGATION_SITE = #连接位点
-# 若单个测序数据则
+若单个测序数据则
 PAIR1_EXT = SRR824846_Q20L10_1
 PAIR2_EXT = SRR824846_Q20L10_2
 
