@@ -4,7 +4,7 @@
  * @Author: zpliu
  * @Date: 2024-11-02 21:40:48
  * @LastEditors: zpliu
- * @LastEditTime: 2024-11-11 19:34:49
+ * @LastEditTime: 2025-01-15 19:48:34
  * @@param: 
 -->
 <!--
@@ -25,12 +25,13 @@
       </el-col>
       <el-col :sm="22" :xs="22" :md="22" :xl="3" :lg="3" class="teacher-info">
         <el-image
-          src="https://43423.oss-cn-beijing.aliyuncs.com/img/202411072208342.jpg"
+          src="https://s21.ax1x.com/2025/01/15/pEFuMVJ.jpg"
           :fit="'contain'"
           class="teacher-info-img"
         ></el-image>
         <div class="teacher-info-item">
           <p>姓名: 李健英</p>
+          <p>职称：教 授</p>
           <p>联系方式: jyli@mail.hzau.edu.cn</p>
         </div>
       </el-col>
@@ -38,9 +39,10 @@
         <div class="teacher-introduction">
           <h2>个人简介</h2>
           <p>
-            主要从事植物分子遗传学与基因组学研究。研究组利用演化生物学、系统基因组学、分子生物学、化学生态学、合成生物学等多学科交叉，聚焦在经济作物和药用植物种质资源创新和合成生物学的科学研究框架，揭示驯化作物和引种植物响应环境变化的适应性机制。研究成果以第一或通讯作者发表在Nature
-            Genetics (2022, 2024), Genome Biology (2021), Molecular Biology & Evolution (2021),
-            Plant Biotechnology Journal (2016, 2019a, 2019b), BMC Biology (2024)等国际知名期刊。
+            主要从事植物分子遗传学与基因组学研究。研究组利用演化生物学、系统基因组学、分子生物学、生态学、代谢生物学、合成生物学等多学科，
+            聚焦在经济作物和药用植物种质资源内表型创新和合成生物学科学研究框架，
+            揭示驯化作物和引种植物响应环境变化的适应性机制。研究成果以第一或通讯作者发表在Nature Genetics (2篇),
+            Genome Biology, Molecular Biology & Evolution,Plant Biotechnology Journal (3篇), BMC Biology等国际知名期刊。
           </p>
         </div>
       </el-col>
